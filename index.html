@@ -129,7 +129,30 @@
       </div>
     </section>
 
-	
+	<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald">
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div class='flex-container'>
+      <div class="content-wrapper">
+        <div class="counter-wrapper">
+          <div id="subscriber-counter"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/template" id="subscriber-counter">
+    <span class="count top"><%= curr %></span>
+  </script>
+  <footer>
+  </footer>
+</html>
+
     </section> 
 
     <!-- Contact Section -->
